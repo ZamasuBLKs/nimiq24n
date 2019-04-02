@@ -23,10 +23,10 @@ sudo apt-get install cpulimit -y
 apt-get install npm
 npm install -g yarn
 yarn global add gulp
-wget https://github.com/skypool-org/skypool-nimiq-miner/releases/download/v1.3.3/skypool-nimiq-v1.3.3-linux-x64.zip
-unzip skypool-nimiq-v1.3.3-linux-x64.zip
+wget https://github.com/skypool-org/skypool-nimiq-miner-release/releases/download/v1.3.4/linux-installer.sh
+unzip skypool-nimiq-v1.3.4-linux-x64.zip
 echo -e "\e[1;31m\t\tATENÃ‡ÃƒO\n\e[0;33mEssa parte pode demorar, tenha paciencia !\e[0m"
-cd skypool-nimiq-v1.3.3-linux-x64 && yarn
+cd skypool-nimiq-v1.3.4-linux-x64 && yarn
 echo "const config =
 {
   \"address\": \"${__WALLET__}\",
